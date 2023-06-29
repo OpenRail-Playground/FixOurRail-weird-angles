@@ -27,7 +27,9 @@
 		"fix": "npm run lint -- --fix",
 		"prepublishOnly": "npm test",
 		"test": "npm run lint && npm run check-deps && ava",
-		"preprocess": "sh import.sh dach-latest.osm.pbf | sed  \"/tag/d\" > test.osm"
+		"preprocess": "sh import.sh dach-latest.osm.pbf | sed  \"/tag/d\" > test.osm",
+		"findings": "cat test.osm | node src/index.js --max-old-space-size=10000 > out.txt"
+
 	},
 	"engines": {
 		"node": ">=16"
@@ -39,6 +41,7 @@
 		"get-stdin": "^9.0.0",
 		"graphlib": "^2.1.8",
 		"lodash": "^4.17.21",
+		"mapbox": "^1.0.0-beta10",
 		"xml-js": "^1.6.11"
 	}
 }

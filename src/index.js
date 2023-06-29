@@ -49,10 +49,20 @@ const main = async () => {
 		if (angle >= upperAngleThreshold) return
 		if (angle <= lowerAngleThreshold) return
 
-		console.log(node, angle)
+		console.log(
+			'{' +
+			"'type': 'Feature'," +
+			"'properties': {" +
+				"'description':" +
+					"'<strong>" + node + '</strong><p><a href="https://www.openstreetmap.org/node/' + node + '" target="_blank" title="Opens in a new window">' + node + '</a>  suspicious angle between edges:' + angle + "</p>'," +
+			"'icon': 'rocket'"	+
+			'},' +
+			"'geometry': {" +
+				"'type': 'Point'," +
+				"'coordinates': [" + nodeAttributes.lon + ',' + +nodeAttributes.lat + ']' +
+			'}},',
+		)
 	})
-
-	// process.stdout.write(JSON.stringify(parsed, null, 4))
 }
 
 main()
