@@ -1,6 +1,7 @@
 # general
 .DS_Store
 *.log
+.idea
 
 # node-specific
 node_modules
@@ -11,3 +12,6 @@ pnpm-lock.yaml
 dist
 
 *.pbf
+!weird-track-angles-correct.osm.pbf
+!weird-track-angles-wrong.osm.pbf
+*.osm
