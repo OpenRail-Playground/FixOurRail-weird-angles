@@ -29,7 +29,7 @@
 		"test": "npm run lint && npm run check-deps && ava",
 		"preprocess": "sh import.sh dach-latest.osm.pbf | sed  \"/tag/d\" > test.osm",
 		"findings": "cat test.osm | node src/index.js --max-old-space-size=10000 > out.txt",
-		"createHtml": "cat before.txt out.txt after.txt >> findings.html"
+		"createHtml": "cat before.txt out.txt after.txt > findings.html"
 
 	},
 	"engines": {
