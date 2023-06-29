@@ -1,0 +1,11 @@
+# general
+.DS_Store
+*.log
+
+# node-specific
+node_modules
+package-lock.json
+yarn.lock
+shrinkwrap.yaml
+pnpm-lock.yaml
+dist
