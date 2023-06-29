@@ -27,7 +27,7 @@
 		"fix": "npm run lint -- --fix",
 		"prepublishOnly": "npm test",
 		"test": "npm run lint && npm run check-deps && ava",
-		"preprocess": "sh import.sh switzerland-latest.osm.pbf > test.osm"
+		"preprocess": "sh import.sh dach-latest.osm.pbf | sed  \"/tag/d\" > test.osm"
 	},
 	"engines": {
 		"node": ">=16"
