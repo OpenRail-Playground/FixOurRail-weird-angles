@@ -6,7 +6,7 @@ import { point } from '@turf/helpers'
 import bearing from '@turf/bearing'
 
 const upperAngleThreshold = 150
-const lowerAngleThreshold = 5
+const lowerAngleThreshold = 10
 
 const main = async () => {
 	const stdin = await getStdin()
