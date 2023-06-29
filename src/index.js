@@ -5,7 +5,8 @@ import lodash from 'lodash'
 import { point } from '@turf/helpers'
 import bearing from '@turf/bearing'
 
-const minAngle = 150
+const upperAngleThreshold = 150
+const lowerAngleThreshold = 5
 
 const main = async () => {
 	const stdin = await getStdin()
@@ -45,7 +46,8 @@ const main = async () => {
 		const bearingB = bearing(pointNode, pointNeighborB)
 
 		const angle = Math.abs(bearingB - bearingA)
-		if (angle >= minAngle) return
+		if (angle >= upperAngleThreshold) return
+		if (angle <= lowerAngleThreshold) return
 
 		console.log(node, angle)
 	})
