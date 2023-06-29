@@ -1,4 +1,5 @@
-import { xml2js } from 'xml-js'
+import { xml2js, js2xml } from 'xml-js'
+
 import getStdin from 'get-stdin'
 import { Graph } from 'graphlib'
 import lodash from 'lodash'
@@ -28,6 +29,7 @@ const main = async () => {
 		})
 	})
 
+	const errors = []
 	g.nodes().forEach(node => {
 		const edges = g.nodeEdges(node)
 		if (edges.length !== 2) return
@@ -49,21 +51,65 @@ const main = async () => {
 		if (angle >= upperAngleThreshold) return
 		if (angle <= lowerAngleThreshold) return
 
-		process.stdout.write(JSON.stringify({
-			type: 'Feature',
-			properties: {
-				description: `<a href="https://www.openstreetmap.org/node/${node}" target="_blank" title="Opens in a new window">${node}</a> suspicious angle: ${angle.toFixed(1)}`,
-				icon: 'rocket',
+		const dataentry = {
+			_attributes: {
+				class: '12345',
+				subclass: '1',
 			},
-			geometry: {
-				type: 'Point',
-				coordinates: [
-					+nodeAttributes.lon,
-					+nodeAttributes.lat,
-				],
+			location: {
+				_attributes: {
+					lat: nodeAttributes.lat,
+					lon: nodeAttributes.lon,
+				},
 			},
-		}) + ',\n')
+			node: {
+				_attributes: {
+					lat: nodeAttributes.lat,
+					lon: nodeAttributes.lon,
+					id: node,
+					user: nodeAttributes.user,
+					version: nodeAttributes.version,
+				},
+			},
+			text: {
+				_attributes: {
+					lang: 'en',
+					value: 'suspicious angle on way: ' + angle.toFixed(1),
+				},
+			},
+		}
+		errors.push(dataentry)
 	})
+	const options = { compact: true, ignoreComment: true, spaces: 4 }
+	const data = {
+		_declaration: { _attributes: { version: '1.0', encoding: 'utf-8' } },
+		analysers: {
+			analyser: {
+				_attributes: {
+					timestamp: '2023-06-29T09:52:58Z',
+				},
+				class: {
+					_attributes: {
+						id: 12345,
+						level: 2,
+						item: 9999,
+					},
+					classtext: {
+						_attributes: {
+							lang: 'en',
+							title: 'way angles',
+						},
+					},
+				},
+				error: errors,
+			},
+			_attributes: {
+				timestamp: '2023-06-29T09:52:58Z',
+			},
+		},
+	}
+	const result = js2xml(data, options)
+	console.log(result)
 }
 
 main()
