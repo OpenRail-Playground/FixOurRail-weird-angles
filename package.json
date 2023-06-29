@@ -26,7 +26,8 @@
 		"lint": "eslint src",
 		"fix": "npm run lint -- --fix",
 		"prepublishOnly": "npm test",
-		"test": "npm run lint && npm run check-deps && ava"
+		"test": "npm run lint && npm run check-deps && ava",
+		"preprocess": "sh import.sh switzerland-latest.osm.pbf > test.osm"
 	},
 	"engines": {
 		"node": ">=16"
