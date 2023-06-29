@@ -54,7 +54,8 @@ const main = async () => {
 			"'type': 'Feature'," +
 			"'properties': {" +
 				"'description':" +
-					"'<strong>" + node + '</strong><p><a href="https://www.openstreetmap.org/node/' + node + '" target="_blank" title="Opens in a new window">' + node + '</a>  suspicious angle between edges:' + angle + "</p>'," +
+					"'" + '<a href="https://www.openstreetmap.org/node/' + node + '" target="_blank" title="Opens in a new window">' + node + '</a>  suspicious angle:' + angle.toFixed(1) +
+			"'," +
 			"'icon': 'rocket'"	+
 			'},' +
 			"'geometry': {" +
