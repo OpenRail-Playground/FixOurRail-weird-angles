@@ -9,3 +9,5 @@ yarn.lock
 shrinkwrap.yaml
 pnpm-lock.yaml
 dist
+
+*.pbf
