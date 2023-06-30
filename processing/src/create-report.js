@@ -120,7 +120,7 @@ const main = async () => {
 					_attributes: {
 						id: 12345,
 						level: 2,
-						item: 9011,
+						item: 1010,
 					},
 					classtext: {
 						_attributes: {
@@ -133,12 +133,12 @@ const main = async () => {
 					_attributes: {
 						id: 12346,
 						level: 2,
-						item: 9011,
+						item: 1020,
 					},
 					classtext: {
 						_attributes: {
 							lang: 'en',
-							title: 'to many edges',
+							title: 'too many edges',
 						},
 					},
 				},
@@ -147,7 +147,7 @@ const main = async () => {
 						id: 12347,
 						level: 2,
 
-						item: 9011,
+						item: 1020,
 					},
 					classtext: {
 						_attributes: {
@@ -161,7 +161,7 @@ const main = async () => {
 						id: 12348,
 						level: 2,
 
-						item: 9011,
+						item: 1030,
 					},
 					classtext: {
 						_attributes: {
