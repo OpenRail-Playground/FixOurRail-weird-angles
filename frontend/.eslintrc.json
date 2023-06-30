@@ -1,0 +1,19 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"node": false
+	},
+	"extends": "standard",
+	"rules": {
+		"comma-dangle": [
+			"error",
+			"always-multiline"
+		],
+		"indent": [
+			"error",
+			"tab"
+		],
+		"no-tabs": "off"
+	}
+}

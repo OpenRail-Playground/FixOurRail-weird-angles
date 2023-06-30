@@ -11,7 +11,9 @@ shrinkwrap.yaml
 pnpm-lock.yaml
 dist
 
-*.pbf
-!weird-track-angles-correct.osm.pbf
-!weird-track-angles-wrong.osm.pbf
-*.osm
+processing/data/*.osm
+processing/data/*.osm.pbf
+!processing/data/weird-track-angles-correct.osm.pbf
+!processing/data/weird-track-angles-wrong.osm.pbf
+
+assets/bundle.*

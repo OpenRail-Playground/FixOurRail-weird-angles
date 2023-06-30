@@ -1,0 +1,39 @@
+{
+	"name": "fixmyrail-weird-angles-frontend",
+	"private": true,
+	"description": "tbd",
+	"version": "0.0.0",
+	"keywords": [],
+	"repository": "OpenRailFoundation/fixmyrail-weird-angles",
+	"bugs": "https://github.com/OpenRailFoundation/fixmyrail-weird-angles/issues",
+	"main": "src/index.js",
+	"files": [
+		"src/*"
+	],
+	"type": "module",
+	"devDependencies": {
+		"depcheck": "^1.4.3",
+		"eslint": "^8.15.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.2.0",
+		"eslint-plugin-promise": "^6.0.0",
+		"json-loader": "^0.5.7",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2"
+	},
+	"scripts": {
+		"build": "webpack",
+		"check-deps": "depcheck",
+		"lint": "eslint src",
+		"fix": "npm run lint -- --fix",
+		"test": "npm run lint && npm run check-deps && npm run build"
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"mapbox-gl": "^2.8.2"
+	}
+}

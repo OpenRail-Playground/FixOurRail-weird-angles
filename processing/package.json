@@ -1,5 +1,5 @@
 {
-	"name": "fixmyrail-weird-angles",
+	"name": "fixmyrail-weird-angles-processing",
 	"private": true,
 	"description": "tbd",
 	"version": "0.0.0",
@@ -25,12 +25,10 @@
 		"check-deps": "depcheck",
 		"lint": "eslint src",
 		"fix": "npm run lint -- --fix",
-		"prepublishOnly": "npm test",
 		"test": "npm run lint && npm run check-deps && ava",
-		"preprocess": "sh import.sh dach-latest.osm.pbf | sed -e '/tag/{/railway/!d;}' > test.osm",
-		"findings": "cat test.osm | node src/index.js > angle_request.xml",
-		"createHtml": "cat before.txt out.txt after.txt > findings.html"
-
+		"preprocess": "sh import.sh data/dach-latest.osm.pbf | sed -e '/tag/{/railway/!d;}' > data/preprocessed.osm",
+		"findings": "cat data/preprocessed.osm | node src/findings.js > output/findings.json",
+		"create-report": "node src/create-report.js > output/report.xml"
 	},
 	"engines": {
 		"node": ">=16"
@@ -41,6 +39,7 @@
 		"@turf/helpers": "^6.5.0",
 		"get-stdin": "^9.0.0",
 		"graphlib": "^2.1.8",
+		"load-json-file": "^7.0.1",
 		"lodash": "^4.17.21",
 		"mapbox": "^1.0.0-beta10",
 		"xml-js": "^1.6.11"

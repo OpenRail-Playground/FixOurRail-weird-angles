@@ -1,4 +1,4 @@
-import { xml2js, js2xml } from 'xml-js'
+import { xml2js } from 'xml-js'
 
 import getStdin from 'get-stdin'
 import { Graph } from 'graphlib'
@@ -9,7 +9,7 @@ import bearing from '@turf/bearing'
 const upperAngleThreshold = 150
 const lowerAngleThreshold = 10
 
-function hasOpoposite (bear, bear1, bear2, bear3) {
+function hasOpposite (bear, bear1, bear2, bear3) {
 	const upperLimit = 185
 	const lowerLimit = 175
 
@@ -25,6 +25,8 @@ const main = async () => {
 	const stdin = await getStdin()
 
 	const { osm } = xml2js(stdin, { compact: true })
+
+	// build graph
 
 	const g = new Graph()
 
@@ -60,11 +62,16 @@ const main = async () => {
 		})
 	})
 
-	const errors = []
+	const errors = {
+		fourVerticesNoCrossing: [],
+		suspiciousAngle: [],
+		moreThanFourEdges: []
+	}
 	g.nodes().forEach(node => {
 		const edges = g.nodeEdges(node)
 		const nodeAttributes = g.node(node)
 
+		// detect suspicious switches
 		if (edges.length === 4 && !nodeAttributes.railwaytags.includes('railway_crossing')) {
 			const [neighborA, neighborB, neighborC, neighborD] = edges.map(({ v, w }) => (v !== node) ? v : w)
 
@@ -84,41 +91,23 @@ const main = async () => {
 			const bearingC = bearing(pointNode, pointNeighborC)
 			const bearingD = bearing(pointNode, pointNeighborD)
 
-			if (!hasOpoposite(bearingA, bearingB, bearingC, bearingD) &&
-				!hasOpoposite(bearingB, bearingA, bearingC, bearingD) &&
-				!hasOpoposite(bearingC, bearingB, bearingA, bearingD) &&
-				!hasOpoposite(bearingD, bearingB, bearingC, bearingA)) {
-				const dataentry = {
-					_attributes: {
-						class: '12347',
-						subclass: '1',
-					},
-					location: {
-						_attributes: {
-							lat: nodeAttributes.lat,
-							lon: nodeAttributes.lon,
-						},
-					},
-					node: {
-						_attributes: {
-							lat: nodeAttributes.lat,
-							lon: nodeAttributes.lon,
-							id: node,
-							user: nodeAttributes.user,
-							version: nodeAttributes.version,
-						},
-					},
-					text: {
-						_attributes: {
-							lang: 'en',
-							value: '4 vertices and no crossing',
-						},
-					},
+			if (!hasOpposite(bearingA, bearingB, bearingC, bearingD) &&
+				!hasOpposite(bearingB, bearingA, bearingC, bearingD) &&
+				!hasOpposite(bearingC, bearingB, bearingA, bearingD) &&
+				!hasOpposite(bearingD, bearingB, bearingC, bearingA)) {
+				const errorEntry = {
+					type: 'four-vertices-no-crossing',
+					lon: nodeAttributes.lon,
+					lat: nodeAttributes.lat,
+					nodeId: node,
+					user: nodeAttributes.user,
+					version: nodeAttributes.version,
 				}
-				errors.push(dataentry)
+				errors.fourVerticesNoCrossing.push(errorEntry)
 			}
 		}
 
+		// detect weird track angles
 		if (edges.length === 2) {
 			const [neighborA, neighborB] = edges.map(({ v, w }) => (v !== node) ? v : w)
 
@@ -133,129 +122,35 @@ const main = async () => {
 			const bearingB = bearing(pointNode, pointNeighborB)
 
 			const angle = Math.abs(bearingB - bearingA)
-			if (angle >= upperAngleThreshold && angle <= 210) return
-			if (angle <= lowerAngleThreshold || angle >= 350) return
-
-			const dataentry = {
-				_attributes: {
-					class: '12345',
-					subclass: '1',
-				},
-				location: {
-					_attributes: {
-						lat: nodeAttributes.lat,
-						lon: nodeAttributes.lon,
-					},
-				},
-				node: {
-					_attributes: {
-						lat: nodeAttributes.lat,
-						lon: nodeAttributes.lon,
-						id: node,
-						user: nodeAttributes.user,
-						version: nodeAttributes.version,
-					},
-				},
-				text: {
-					_attributes: {
-						lang: 'en',
-						value: 'suspicious angle on way: ' + angle.toFixed(1),
-					},
-				},
+			if (!(angle >= upperAngleThreshold && angle <= 210) && !(angle <= lowerAngleThreshold || angle >= 350)) {
+				const errorEntry = {
+					type: 'suspicious-angle',
+					angle: angle.toFixed(1),
+					lon: nodeAttributes.lon,
+					lat: nodeAttributes.lat,
+					nodeId: node,
+					user: nodeAttributes.user,
+					version: nodeAttributes.version,
+				}
+				errors.suspiciousAngle.push(errorEntry)
 			}
-			errors.push(dataentry)
 		}
 
 		if (edges.length > 4 && !nodeAttributes.railwaytags.includes('turntable')) {
-			const dataentry = {
-				_attributes: {
-					class: '12346',
-					subclass: '1',
-				},
-				location: {
-					_attributes: {
-						lat: nodeAttributes.lat,
-						lon: nodeAttributes.lon,
-					},
-				},
-				node: {
-					_attributes: {
-						lat: nodeAttributes.lat,
-						lon: nodeAttributes.lon,
-						id: node,
-						user: nodeAttributes.user,
-						version: nodeAttributes.version,
-					},
-				},
-				text: {
-					_attributes: {
-						lang: 'en',
-						value: 'more than four edges on node: ' + edges.length,
-					},
-				},
+			const errorEntry = {
+				type: 'more-than-four-edges',
+				lon: nodeAttributes.lon,
+				lat: nodeAttributes.lat,
+				nodeId: node,
+				edgeCount: edges.length,
+				user: nodeAttributes.user,
+				version: nodeAttributes.version,
 			}
-			errors.push(dataentry)
+			errors.moreThanFourEdges.push(errorEntry)
 		}
 	})
 
-	const options = { compact: true, ignoreComment: true, spaces: 4 }
-	const data = {
-		_declaration: { _attributes: { version: '1.0', encoding: 'utf-8' } },
-		analysers: {
-			analyser: {
-				_attributes: {
-					timestamp: '2023-06-29T09:52:58Z',
-				},
-				class: [{
-					_attributes: {
-						id: 12345,
-						level: 2,
-						item: 9011,
-					},
-					classtext: {
-						_attributes: {
-							lang: 'en',
-							title: 'way angles',
-						},
-					},
-				},
-				{
-					_attributes: {
-						id: 12346,
-						level: 2,
-						item: 9011,
-					},
-					classtext: {
-						_attributes: {
-							lang: 'en',
-							title: 'to many edges',
-						},
-					},
-				},
-				{
-					_attributes: {
-						id: 12347,
-						level: 2,
-
-						item: 9011,
-					},
-					classtext: {
-						_attributes: {
-							lang: 'en',
-							title: '4 edges no crossing',
-						},
-					},
-				},
-				],
-				error: errors,
-			},
-			_attributes: {
-				timestamp: '2023-06-29T09:52:58Z',
-			},
-		},
-	}
-	const result = js2xml(data, options)
-	console.log(result)
+	process.stdout.write(JSON.stringify(errors, null, 4))
 }
 
 main()

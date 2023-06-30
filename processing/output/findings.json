@@ -1,0 +1,1107 @@
+{
+    "fourVerticesNoCrossing": [
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "8.0539853",
+            "lat": "50.9720512",
+            "nodeId": "587647160"
+        },
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "8.5246712",
+            "lat": "50.3316206",
+            "nodeId": "1234523528"
+        },
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "7.3599493",
+            "lat": "47.3699021",
+            "nodeId": "1290308022"
+        },
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "11.7522918",
+            "lat": "51.6455411",
+            "nodeId": "1421738196"
+        },
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "8.0474634",
+            "lat": "52.2101264",
+            "nodeId": "2015561876"
+        },
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "8.0348331",
+            "lat": "47.0878942",
+            "nodeId": "2057726630"
+        },
+        {
+            "type": "four-vertices-no-crossing",
+            "lon": "13.7846476",
+            "lat": "52.8492465",
+            "nodeId": "2146208373"
+        }
+    ],
+    "suspiciousAngle": [
+        {
+            "type": "suspicious-angle",
+            "angle": "10.4",
+            "lon": "13.9803549",
+            "lat": "53.0328531",
+            "nodeId": "30293631"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "12.9",
+            "lon": "8.761128",
+            "lat": "53.12739",
+            "nodeId": "30933133"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "217.3",
+            "lon": "8.9386439",
+            "lat": "48.3702976",
+            "nodeId": "31044524"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "149.5",
+            "lon": "7.4005989",
+            "lat": "51.9701408",
+            "nodeId": "268553994"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "149.8",
+            "lon": "8.0143473",
+            "lat": "49.3514134",
+            "nodeId": "274847260"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "136.8",
+            "lon": "8.7715481",
+            "lat": "50.463963",
+            "nodeId": "295931998"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "15.5",
+            "lon": "13.4847641",
+            "lat": "52.5052444",
+            "nodeId": "310517060"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "148.7",
+            "lon": "7.4616744",
+            "lat": "50.438473",
+            "nodeId": "389726363"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "101.7",
+            "lon": "9.747943",
+            "lat": "52.3742019",
+            "nodeId": "413246176"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "289.6",
+            "lon": "8.0703067",
+            "lat": "51.7534814",
+            "nodeId": "530650379"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "136.9",
+            "lon": "10.1871605",
+            "lat": "49.7160119",
+            "nodeId": "624288041"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "265.0",
+            "lon": "9.7005475",
+            "lat": "50.0496691",
+            "nodeId": "629244178"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "210.9",
+            "lon": "7.9099023",
+            "lat": "53.5352587",
+            "nodeId": "695499409"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "76.4",
+            "lon": "6.1032683",
+            "lat": "46.2090162",
+            "nodeId": "899758560"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "108.9",
+            "lon": "6.1032264",
+            "lat": "46.2089944",
+            "nodeId": "899758582"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "136.3",
+            "lon": "12.4592084",
+            "lat": "50.4155483",
+            "nodeId": "986326519"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "220.4",
+            "lon": "12.4581531",
+            "lat": "50.415795",
+            "nodeId": "986326524"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "143.7",
+            "lon": "12.4581026",
+            "lat": "50.4157376",
+            "nodeId": "986326533"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "149.8",
+            "lon": "12.4581961",
+            "lat": "50.415342",
+            "nodeId": "986326537"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "227.5",
+            "lon": "12.4592004",
+            "lat": "50.4156015",
+            "nodeId": "986326540"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "76.9",
+            "lon": "9.2111172",
+            "lat": "49.1530245",
+            "nodeId": "1026563050"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "214.0",
+            "lon": "9.0671955",
+            "lat": "49.9772327",
+            "nodeId": "1084071606"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "10.9",
+            "lon": "6.7390589",
+            "lat": "51.4921115",
+            "nodeId": "1119431769"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "265.6",
+            "lon": "9.7392363",
+            "lat": "49.0899196",
+            "nodeId": "1166289733"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "34.4",
+            "lon": "9.6815645",
+            "lat": "50.5572466",
+            "nodeId": "1201382404"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "132.8",
+            "lon": "11.4959369",
+            "lat": "53.3340626",
+            "nodeId": "1242899507"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "10.2",
+            "lon": "7.8890007",
+            "lat": "49.9664306",
+            "nodeId": "1274359424"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "87.2",
+            "lon": "14.2965003",
+            "lat": "51.7495765",
+            "nodeId": "1313201011"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "74.3",
+            "lon": "9.4353517",
+            "lat": "51.2532213",
+            "nodeId": "1367923286"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.8",
+            "lon": "8.5460483",
+            "lat": "49.4402318",
+            "nodeId": "1411975216"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "14.2",
+            "lon": "10.8857645",
+            "lat": "48.4436153",
+            "nodeId": "1431758287"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "17.2",
+            "lon": "7.7337695",
+            "lat": "51.9894308",
+            "nodeId": "1491158110"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "103.1",
+            "lon": "8.2350354",
+            "lat": "50.0191415",
+            "nodeId": "1696247562"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "91.8",
+            "lon": "11.5312972",
+            "lat": "48.1332139",
+            "nodeId": "1718012179"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "212.3",
+            "lon": "8.4334515",
+            "lat": "49.4555354",
+            "nodeId": "1732846248"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "10.2",
+            "lon": "10.0581397",
+            "lat": "52.605694",
+            "nodeId": "1870612965"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "13.0",
+            "lon": "10.7823404",
+            "lat": "51.4930998",
+            "nodeId": "1871502458"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "18.3",
+            "lon": "8.5090695",
+            "lat": "52.0066454",
+            "nodeId": "1982279216"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "10.8",
+            "lon": "8.0473862",
+            "lat": "52.2091993",
+            "nodeId": "2015561729"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "142.6",
+            "lon": "11.0505399",
+            "lat": "49.4483669",
+            "nodeId": "2031393051"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "212.0",
+            "lon": "7.773515",
+            "lat": "52.3002846",
+            "nodeId": "2065258820"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "143.4",
+            "lon": "9.0559292",
+            "lat": "47.6138984",
+            "nodeId": "2203106354"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "212.5",
+            "lon": "15.0903734",
+            "lat": "47.3685096",
+            "nodeId": "2367336516"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "109.9",
+            "lon": "8.5075478",
+            "lat": "49.2470475",
+            "nodeId": "2383038435"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.9564208",
+            "lat": "51.3870895",
+            "nodeId": "2521436510"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "270.0",
+            "lon": "11.956597",
+            "lat": "51.3872643",
+            "nodeId": "2521436512"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.9572852",
+            "lat": "51.386994",
+            "nodeId": "2521436513"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.1",
+            "lon": "11.9571088",
+            "lat": "51.3868192",
+            "nodeId": "2521436514"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "108.8",
+            "lon": "8.0703605",
+            "lat": "51.7534671",
+            "nodeId": "2555404331"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "11.0",
+            "lon": "8.5742244",
+            "lat": "52.015789",
+            "nodeId": "2685802588"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "11.3",
+            "lon": "11.1034887",
+            "lat": "49.4487508",
+            "nodeId": "2876969997"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "216.7",
+            "lon": "11.0506066",
+            "lat": "49.4483725",
+            "nodeId": "2923998292"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "20.6",
+            "lon": "8.6435283",
+            "lat": "50.1005564",
+            "nodeId": "2963889016"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "14.0",
+            "lon": "12.0615818",
+            "lat": "47.4935832",
+            "nodeId": "3071454986"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "266.3",
+            "lon": "11.5312979",
+            "lat": "48.1332143",
+            "nodeId": "3110071572"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "260.5",
+            "lon": "6.4711505",
+            "lat": "50.6833098",
+            "nodeId": "3337741222"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "250.0",
+            "lon": "8.5075477",
+            "lat": "49.2470475",
+            "nodeId": "3384373618"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "212.9",
+            "lon": "7.7731017",
+            "lat": "52.3005936",
+            "nodeId": "3556300404"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "147.2",
+            "lon": "12.2545033",
+            "lat": "53.6916073",
+            "nodeId": "3803345650"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "147.1",
+            "lon": "12.2544986",
+            "lat": "53.6916145",
+            "nodeId": "3803345731"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.6",
+            "lon": "9.8090126",
+            "lat": "47.1412488",
+            "nodeId": "3804435617"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.4",
+            "lon": "9.8087692",
+            "lat": "47.1415164",
+            "nodeId": "3804435629"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "40.0",
+            "lon": "9.0037199",
+            "lat": "46.1739861",
+            "nodeId": "4159702851"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "140.1",
+            "lon": "6.2188572",
+            "lat": "50.7332459",
+            "nodeId": "4267774425"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "220.4",
+            "lon": "6.2188584",
+            "lat": "50.7332516",
+            "nodeId": "4267774426"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "97.4",
+            "lon": "6.4711511",
+            "lat": "50.6833098",
+            "nodeId": "4612223589"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "149.2",
+            "lon": "7.6288384",
+            "lat": "46.9243976",
+            "nodeId": "4696550589"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "131.0",
+            "lon": "8.9386232",
+            "lat": "48.3702928",
+            "nodeId": "4928899278"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "121.4",
+            "lon": "12.5896594",
+            "lat": "48.2110324",
+            "nodeId": "4983237612"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "25.4",
+            "lon": "6.2341511",
+            "lat": "50.7579826",
+            "nodeId": "5083690802"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "221.0",
+            "lon": "14.5005191",
+            "lat": "48.2355234",
+            "nodeId": "5181473905"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "219.9",
+            "lon": "6.0900958",
+            "lat": "50.8789995",
+            "nodeId": "5316999996"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "149.4",
+            "lon": "7.7084089",
+            "lat": "49.7747275",
+            "nodeId": "5502212032"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "139.2",
+            "lon": "13.5930594",
+            "lat": "51.1153529",
+            "nodeId": "5891275070"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "149.8",
+            "lon": "7.707175",
+            "lat": "52.2507461",
+            "nodeId": "5952289492"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "210.9",
+            "lon": "7.7055017",
+            "lat": "52.2504289",
+            "nodeId": "5952289504"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "214.4",
+            "lon": "7.7071608",
+            "lat": "52.2507922",
+            "nodeId": "5952289506"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "145.9",
+            "lon": "7.7055064",
+            "lat": "52.2503949",
+            "nodeId": "5953122905"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "142.8",
+            "lon": "7.7071552",
+            "lat": "52.250712",
+            "nodeId": "5953122909"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "307.1",
+            "lon": "12.2944375",
+            "lat": "51.6213549",
+            "nodeId": "6250642004"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "148.4",
+            "lon": "7.6344621",
+            "lat": "51.9545006",
+            "nodeId": "6545924145"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "137.6",
+            "lon": "6.0900924",
+            "lat": "50.8789998",
+            "nodeId": "7026019827"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "141.0",
+            "lon": "7.2308929",
+            "lat": "51.8333177",
+            "nodeId": "7663005732"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "115.8",
+            "lon": "7.2312033",
+            "lat": "51.8333059",
+            "nodeId": "7663005734"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "216.0",
+            "lon": "7.2309934",
+            "lat": "51.8337099",
+            "nodeId": "7663005736"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "130.6",
+            "lon": "7.2308315",
+            "lat": "51.8333597",
+            "nodeId": "7663005740"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "139.2",
+            "lon": "13.5930595",
+            "lat": "51.1153531",
+            "nodeId": "7680515569"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "10.8",
+            "lon": "13.7089376",
+            "lat": "51.0354735",
+            "nodeId": "7736804828"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "13.0",
+            "lon": "13.708845",
+            "lat": "51.0353888",
+            "nodeId": "7736804840"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "220.3",
+            "lon": "7.6439913",
+            "lat": "52.6568448",
+            "nodeId": "7997895374"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "143.5",
+            "lon": "7.6440369",
+            "lat": "52.6567744",
+            "nodeId": "7997895376"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "145.1",
+            "lon": "7.6434975",
+            "lat": "52.6559702",
+            "nodeId": "7997895377"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "147.3",
+            "lon": "7.6434482",
+            "lat": "52.6559508",
+            "nodeId": "7997895378"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "228.9",
+            "lon": "7.643058",
+            "lat": "52.6569719",
+            "nodeId": "7997895386"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "148.4",
+            "lon": "7.6426309",
+            "lat": "52.6561567",
+            "nodeId": "7997895388"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "145.3",
+            "lon": "7.6426684",
+            "lat": "52.6561239",
+            "nodeId": "7997895389"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3773329",
+            "lat": "50.5314541",
+            "nodeId": "8023528389"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3773686",
+            "lat": "50.5315063",
+            "nodeId": "8023528390"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "270.0",
+            "lon": "11.3769511",
+            "lat": "50.5316215",
+            "nodeId": "8023528391"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3769154",
+            "lat": "50.5315692",
+            "nodeId": "8023528392"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "92.0",
+            "lon": "9.7392364",
+            "lat": "49.0899196",
+            "nodeId": "8047811672"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "95.2",
+            "lon": "9.7005455",
+            "lat": "50.049668",
+            "nodeId": "8287625079"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "270.0",
+            "lon": "11.3442259",
+            "lat": "50.9927607",
+            "nodeId": "8551746773"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3442744",
+            "lat": "50.9927243",
+            "nodeId": "8551746774"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3440855",
+            "lat": "50.9926247",
+            "nodeId": "8551746775"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3440371",
+            "lat": "50.9926611",
+            "nodeId": "8551746776"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "269.9",
+            "lon": "11.3441271",
+            "lat": "50.9926466",
+            "nodeId": "8551746777"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3441703",
+            "lat": "50.9926694",
+            "nodeId": "8551746778"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3441387",
+            "lat": "50.9926379",
+            "nodeId": "8551746779"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.3441819",
+            "lat": "50.9926607",
+            "nodeId": "8551746780"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.4",
+            "lon": "11.3446079",
+            "lat": "50.9936932",
+            "nodeId": "8552001717"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "270.6",
+            "lon": "11.3446978",
+            "lat": "50.9937054",
+            "nodeId": "8552001718"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.8",
+            "lon": "11.344734",
+            "lat": "50.9935936",
+            "nodeId": "8552001719"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.5",
+            "lon": "11.3446449",
+            "lat": "50.9935814",
+            "nodeId": "8552001720"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "225.4",
+            "lon": "11.4959364",
+            "lat": "53.3340687",
+            "nodeId": "8587025306"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.9",
+            "lon": "11.9143582",
+            "lat": "51.382397",
+            "nodeId": "8604402622"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "269.9",
+            "lon": "11.914332",
+            "lat": "51.3824314",
+            "nodeId": "8604402623"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.9",
+            "lon": "11.9142866",
+            "lat": "51.382418",
+            "nodeId": "8604402624"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.1",
+            "lon": "11.9143128",
+            "lat": "51.3823836",
+            "nodeId": "8604402625"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.3",
+            "lon": "11.9669637",
+            "lat": "51.3772548",
+            "nodeId": "8604747661"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.9669602",
+            "lat": "51.3772433",
+            "nodeId": "8604747662"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.1",
+            "lon": "11.9669248",
+            "lat": "51.3772475",
+            "nodeId": "8604747663"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "270.3",
+            "lon": "11.9669283",
+            "lat": "51.3772591",
+            "nodeId": "8604747664"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.0",
+            "lon": "11.8843399",
+            "lat": "51.3860547",
+            "nodeId": "8616313343"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "270.0",
+            "lon": "11.8843503",
+            "lat": "51.3860681",
+            "nodeId": "8616313344"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.3",
+            "lon": "11.8843896",
+            "lat": "51.3860562",
+            "nodeId": "8616313345"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.8",
+            "lon": "11.8843793",
+            "lat": "51.3860428",
+            "nodeId": "8616313346"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "145.7",
+            "lon": "7.6431052",
+            "lat": "52.6560573",
+            "nodeId": "8618898953"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.8",
+            "lon": "11.9937289",
+            "lat": "51.3803555",
+            "nodeId": "8666120364"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "89.8",
+            "lon": "11.9937277",
+            "lat": "51.3803862",
+            "nodeId": "8666120365"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "269.8",
+            "lon": "11.9937572",
+            "lat": "51.3803866",
+            "nodeId": "8666120366"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "90.2",
+            "lon": "11.9937584",
+            "lat": "51.380356",
+            "nodeId": "8666120367"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "100.2",
+            "lon": "9.7479419",
+            "lat": "52.3741958",
+            "nodeId": "8809392859"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "228.3",
+            "lon": "7.2309344",
+            "lat": "51.8336904",
+            "nodeId": "9163035927"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "81.0",
+            "lon": "7.2313857",
+            "lat": "51.8336763",
+            "nodeId": "9163035928"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "74.4",
+            "lon": "10.0022093",
+            "lat": "51.1965191",
+            "nodeId": "9323541258"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "100.5",
+            "lon": "7.3149596",
+            "lat": "51.4447652",
+            "nodeId": "9359426146"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "222.3",
+            "lon": "11.6496906",
+            "lat": "48.1353155",
+            "nodeId": "9630270742"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "136.9",
+            "lon": "11.6496907",
+            "lat": "48.1353155",
+            "nodeId": "9630270743"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "232.5",
+            "lon": "9.3860465",
+            "lat": "52.1013312",
+            "nodeId": "9735041787"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "127.3",
+            "lon": "9.3860411",
+            "lat": "52.1013329",
+            "nodeId": "9735041788"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "146.1",
+            "lon": "11.9221222",
+            "lat": "48.9049236",
+            "nodeId": "9907526109"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "211.8",
+            "lon": "8.5329506",
+            "lat": "52.7283713",
+            "nodeId": "10017774680"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "211.4",
+            "lon": "14.577861",
+            "lat": "51.646003",
+            "nodeId": "10220147964"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "147.4",
+            "lon": "8.3866588",
+            "lat": "47.4546139",
+            "nodeId": "10267081655"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "212.5",
+            "lon": "8.3866577",
+            "lat": "47.4546767",
+            "nodeId": "10267081657"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "211.3",
+            "lon": "8.386618",
+            "lat": "47.4547006",
+            "nodeId": "10267081658"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "12.1",
+            "lon": "13.8370489",
+            "lat": "46.6032903",
+            "nodeId": "10565301703"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "220.5",
+            "lon": "10.1871621",
+            "lat": "49.7160123",
+            "nodeId": "10886526622"
+        },
+        {
+            "type": "suspicious-angle",
+            "angle": "148.5",
+            "lon": "7.7054963",
+            "lat": "52.2504109",
+            "nodeId": "10893813820"
+        }
+    ],
+    "moreThanFourEdges": [
+        {
+            "type": "more-than-four-edges",
+            "lon": "11.4407721",
+            "lat": "50.6554127",
+            "nodeId": "1650512863",
+            "edgeCount": 5
+        }
+    ]
+}
