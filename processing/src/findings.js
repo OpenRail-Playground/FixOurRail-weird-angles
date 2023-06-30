@@ -6,6 +6,8 @@ import lodash from 'lodash'
 import { point } from '@turf/helpers'
 import bearing from '@turf/bearing'
 
+import { findDisconnectedTracks } from './disconnected.js'
+
 const upperAngleThreshold = 150
 const lowerAngleThreshold = 10
 
@@ -149,6 +151,8 @@ const main = async () => {
 			errors.moreThanFourEdges.push(errorEntry)
 		}
 	})
+
+	errors.disconnectedTracks = findDisconnectedTracks('data/export.json')
 
 	process.stdout.write(JSON.stringify(errors, null, 4))
 }

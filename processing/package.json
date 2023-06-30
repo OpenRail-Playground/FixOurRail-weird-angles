@@ -38,12 +38,14 @@
 	"license": "ISC",
 	"dependencies": {
 		"@turf/bearing": "^6.5.0",
+		"@turf/distance": "^6.5.0",
 		"@turf/helpers": "^6.5.0",
 		"get-stdin": "^9.0.0",
 		"graphlib": "^2.1.8",
 		"load-json-file": "^7.0.1",
 		"lodash": "^4.17.21",
 		"mapbox": "^1.0.0-beta10",
+		"point-in-polygon": "^1.1.0",
 		"xml-js": "^1.6.11"
 	}
 }
