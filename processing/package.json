@@ -26,8 +26,10 @@
 		"lint": "eslint src",
 		"fix": "npm run lint -- --fix",
 		"test": "npm run lint && npm run check-deps && ava",
-		"preprocess": "sh import.sh data/dach-latest.osm.pbf | sed -e '/tag/{/railway/!d;}' > data/preprocessed.osm",
-		"findings": "cat data/preprocessed.osm | node src/findings.js > output/findings.json",
+		"preprocess-dach": "sh import.sh data/dach-latest.osm.pbf | sed -e '/tag/{/railway/!d;}' > data/preprocessed-dach.osm",
+		"preprocess-fr": "sh import.sh data/france-latest.osm.pbf | sed -e '/tag/{/railway/!d;}' > data/preprocessed-fr.osm",
+		"findings-dach": "cat data/preprocessed-dach.osm | node src/findings.js > output/findings-dach.json",
+		"findings-fr": "cat data/preprocessed-fr.osm | node src/findings.js > output/findings-fr.json",
 		"create-report": "node src/create-report.js > output/report.xml"
 	},
 	"engines": {

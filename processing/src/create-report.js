@@ -1,10 +1,15 @@
-import { xml2js, js2xml } from 'xml-js'
+import { js2xml } from 'xml-js'
 import { loadJsonFile } from 'load-json-file'
 import { dirname, resolve } from 'path'
 import { fileURLToPath } from 'url'
 
 const main = async () => {
-	const { moreThanFourEdges, suspiciousAngle, fourVerticesNoCrossing } = await loadJsonFile(resolve(dirname(fileURLToPath(import.meta.url)), '../output/findings.json'))
+	const dach = await loadJsonFile(resolve(dirname(fileURLToPath(import.meta.url)), '../output/findings-dach.json'))
+	const fr = await loadJsonFile(resolve(dirname(fileURLToPath(import.meta.url)), '../output/findings-fr.json'))
+	const moreThanFourEdges = [...dach.moreThanFourEdges, ...fr.moreThanFourEdges]
+	const suspiciousAngle = [...dach.suspiciousAngle, ...fr.suspiciousAngle]
+	const fourVerticesNoCrossing = [...dach.fourVerticesNoCrossing, ...fr.fourVerticesNoCrossing]
+
 	const entriesMoreThanFourEdges = moreThanFourEdges.map(error => {
 		const dataEntry = {
 			_attributes: {

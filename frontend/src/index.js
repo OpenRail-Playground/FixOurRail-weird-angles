@@ -1,7 +1,8 @@
 'use strict'
 
 import mapboxGl from 'mapbox-gl'
-import findings from '../../processing/output/findings.json'
+import findingsDach from '../../processing/output/findings-dach.json'
+import findingsFr from '../../processing/output/findings-fr.json'
 
 mapboxGl.accessToken = 'pk.eyJ1IjoianVsaXVzdGUiLCJhIjoiY2xqaG1sZHI4MGNkMDNxcHc0dXN4MzM5dCJ9.prQOPUpqSknb2P5Yaue8Eg'
 const map = new mapboxGl.Map({
@@ -46,9 +47,12 @@ map.on('load', () => {
 		data: {
 			type: 'FeatureCollection',
 			features: [
-				...findings.fourVerticesNoCrossing,
-				...findings.suspiciousAngle,
-				...findings.moreThanFourEdges,
+				...findingsDach.fourVerticesNoCrossing,
+				...findingsDach.suspiciousAngle,
+				...findingsDach.moreThanFourEdges,
+				...findingsFr.fourVerticesNoCrossing,
+				...findingsFr.suspiciousAngle,
+				...findingsFr.moreThanFourEdges,
 			].map(finding => {
 				return {
 					type: 'Feature',

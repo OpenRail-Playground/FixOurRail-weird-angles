@@ -45,6 +45,51 @@
             <node lat="52.8492465" lon="13.7846476" id="2146208373"/>
             <text lang="en" value="more than four edges on node: undefined"/>
         </error>
+        <error class="12346" subclass="1">
+            <location lat="49.429016" lon="2.8396434"/>
+            <node lat="49.429016" lon="2.8396434" id="461126761"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="48.9094579" lon="2.2778761"/>
+            <node lat="48.9094579" lon="2.2778761" id="1369654464"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="49.4818925" lon="2.8917137"/>
+            <node lat="49.4818925" lon="2.8917137" id="2005981015"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="43.285904" lon="5.5028241"/>
+            <node lat="43.285904" lon="5.5028241" id="2443603461"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="48.1219548" lon="-1.2192467"/>
+            <node lat="48.1219548" lon="-1.2192467" id="4230872713"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="47.6507071" lon="6.8445036"/>
+            <node lat="47.6507071" lon="6.8445036" id="4491163685"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="47.6507497" lon="6.8443843"/>
+            <node lat="47.6507497" lon="6.8443843" id="4491163687"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="47.650859" lon="6.844326"/>
+            <node lat="47.650859" lon="6.844326" id="4491169522"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
+        <error class="12346" subclass="1">
+            <location lat="49.3707404" lon="1.0051189"/>
+            <node lat="49.3707404" lon="1.0051189" id="7191184483"/>
+            <text lang="en" value="more than four edges on node: undefined"/>
+        </error>
         <error class="12345" subclass="1">
             <location lat="53.0328531" lon="13.9803549"/>
             <node lat="53.0328531" lon="13.9803549" id="30293631"/>
@@ -795,9 +840,439 @@
             <node lat="52.2504109" lon="7.7054963" id="10893813820"/>
             <text lang="en" value="suspicious angle on way: 148.5"/>
         </error>
+        <error class="12345" subclass="1">
+            <location lat="43.672761" lon="-1.2535467"/>
+            <node lat="43.672761" lon="-1.2535467" id="253822800"/>
+            <text lang="en" value="suspicious angle on way: 227.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="43.5985025" lon="4.9642266"/>
+            <node lat="43.5985025" lon="4.9642266" id="640005252"/>
+            <text lang="en" value="suspicious angle on way: 148.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.4009779" lon="1.1043516"/>
+            <node lat="49.4009779" lon="1.1043516" id="803552490"/>
+            <text lang="en" value="suspicious angle on way: 13.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="50.3315644" lon="3.172806"/>
+            <node lat="50.3315644" lon="3.172806" id="942400764"/>
+            <text lang="en" value="suspicious angle on way: 144.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="50.3315309" lon="3.1727557"/>
+            <node lat="50.3315309" lon="3.1727557" id="942400778"/>
+            <text lang="en" value="suspicious angle on way: 147.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="50.621757" lon="2.474251"/>
+            <node lat="50.621757" lon="2.474251" id="950738077"/>
+            <text lang="en" value="suspicious angle on way: 146.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3850725" lon="0.7209056"/>
+            <node lat="47.3850725" lon="0.7209056" id="1033599313"/>
+            <text lang="en" value="suspicious angle on way: 233.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.2629116" lon="4.0036904"/>
+            <node lat="49.2629116" lon="4.0036904" id="1073653309"/>
+            <text lang="en" value="suspicious angle on way: 211.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.9320578" lon="2.4931691"/>
+            <node lat="48.9320578" lon="2.4931691" id="1332347012"/>
+            <text lang="en" value="suspicious angle on way: 268.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.9831025" lon="2.6351899"/>
+            <node lat="48.9831025" lon="2.6351899" id="1457383211"/>
+            <text lang="en" value="suspicious angle on way: 10.4"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.477511" lon="0.305693"/>
+            <node lat="49.477511" lon="0.305693" id="1504353238"/>
+            <text lang="en" value="suspicious angle on way: 142.4"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.477512" lon="0.305695"/>
+            <node lat="49.477512" lon="0.305695" id="1504353243"/>
+            <text lang="en" value="suspicious angle on way: 219.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.4439958" lon="4.7600434"/>
+            <node lat="45.4439958" lon="4.7600434" id="1707370327"/>
+            <text lang="en" value="suspicious angle on way: 241.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.444001" lon="4.760022"/>
+            <node lat="45.444001" lon="4.760022" id="1707370628"/>
+            <text lang="en" value="suspicious angle on way: 115.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.0970307" lon="2.524492"/>
+            <node lat="49.0970307" lon="2.524492" id="1820176017"/>
+            <text lang="en" value="suspicious angle on way: 11.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.8087505" lon="7.1094533"/>
+            <node lat="47.8087505" lon="7.1094533" id="2144712841"/>
+            <text lang="en" value="suspicious angle on way: 80.5"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.8021849" lon="5.4453812"/>
+            <node lat="47.8021849" lon="5.4453812" id="2368785676"/>
+            <text lang="en" value="suspicious angle on way: 10.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.3559596" lon="4.7944021"/>
+            <node lat="45.3559596" lon="4.7944021" id="3149088500"/>
+            <text lang="en" value="suspicious angle on way: 12.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.6507604" lon="6.8443731"/>
+            <node lat="47.6507604" lon="6.8443731" id="4491163688"/>
+            <text lang="en" value="suspicious angle on way: 212.4"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="43.9196559" lon="-0.917176"/>
+            <node lat="43.9196559" lon="-0.917176" id="5129472655"/>
+            <text lang="en" value="suspicious angle on way: 136.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="43.9192702" lon="-0.917309"/>
+            <node lat="43.9192702" lon="-0.917309" id="5129472665"/>
+            <text lang="en" value="suspicious angle on way: 305.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="43.9196307" lon="-0.9171572"/>
+            <node lat="43.9196307" lon="-0.9171572" id="5129472667"/>
+            <text lang="en" value="suspicious angle on way: 127.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.9094535" lon="2.2778746"/>
+            <node lat="48.9094535" lon="2.2778746" id="5249079769"/>
+            <text lang="en" value="suspicious angle on way: 130.5"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.9078277" lon="1.9121713"/>
+            <node lat="47.9078277" lon="1.9121713" id="5759497674"/>
+            <text lang="en" value="suspicious angle on way: 214.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.9397733" lon="2.2726116"/>
+            <node lat="48.9397733" lon="2.2726116" id="6241542007"/>
+            <text lang="en" value="suspicious angle on way: 17.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.5556073" lon="7.6629968"/>
+            <node lat="48.5556073" lon="7.6629968" id="6583647261"/>
+            <text lang="en" value="suspicious angle on way: 84.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.5555871" lon="7.6630118"/>
+            <node lat="48.5555871" lon="7.6630118" id="6583647262"/>
+            <text lang="en" value="suspicious angle on way: 95.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.5556577" lon="7.6632914"/>
+            <node lat="48.5556577" lon="7.6632914" id="6583647263"/>
+            <text lang="en" value="suspicious angle on way: 79.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.5556759" lon="7.6632745"/>
+            <node lat="48.5556759" lon="7.6632745" id="6583647264"/>
+            <text lang="en" value="suspicious angle on way: 258.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="50.2097559" lon="2.7682834"/>
+            <node lat="50.2097559" lon="2.7682834" id="6684742572"/>
+            <text lang="en" value="suspicious angle on way: 10.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.9927317" lon="-0.4470452"/>
+            <node lat="44.9927317" lon="-0.4470452" id="7146495060"/>
+            <text lang="en" value="suspicious angle on way: 103.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.9926979" lon="-0.4469019"/>
+            <node lat="44.9926979" lon="-0.4469019" id="7146495061"/>
+            <text lang="en" value="suspicious angle on way: 139.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.9927202" lon="-0.4468226"/>
+            <node lat="44.9927202" lon="-0.4468226" id="7146495062"/>
+            <text lang="en" value="suspicious angle on way: 126.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.9927741" lon="-0.4468023"/>
+            <node lat="44.9927741" lon="-0.4468023" id="7146495063"/>
+            <text lang="en" value="suspicious angle on way: 95.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.9928068" lon="-0.4470352"/>
+            <node lat="44.9928068" lon="-0.4470352" id="7146495068"/>
+            <text lang="en" value="suspicious angle on way: 256.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7867516" lon="-0.5425493"/>
+            <node lat="47.7867516" lon="-0.5425493" id="7197088216"/>
+            <text lang="en" value="suspicious angle on way: 51.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7865426" lon="-0.541353"/>
+            <node lat="47.7865426" lon="-0.541353" id="7197088218"/>
+            <text lang="en" value="suspicious angle on way: 219.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7863768" lon="-0.5411599"/>
+            <node lat="47.7863768" lon="-0.5411599" id="7197088219"/>
+            <text lang="en" value="suspicious angle on way: 212.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7857424" lon="-0.5413155"/>
+            <node lat="47.7857424" lon="-0.5413155" id="7197088222"/>
+            <text lang="en" value="suspicious angle on way: 140.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7855838" lon="-0.5417071"/>
+            <node lat="47.7855838" lon="-0.5417071" id="7197088223"/>
+            <text lang="en" value="suspicious angle on way: 138.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7857316" lon="-0.5423508"/>
+            <node lat="47.7857316" lon="-0.5423508" id="7197088225"/>
+            <text lang="en" value="suspicious angle on way: 148.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7859226" lon="-0.5425117"/>
+            <node lat="47.7859226" lon="-0.5425117" id="7197088226"/>
+            <text lang="en" value="suspicious angle on way: 132.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6200532" lon="5.5719331"/>
+            <node lat="45.6200532" lon="5.5719331" id="7437758870"/>
+            <text lang="en" value="suspicious angle on way: 226.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.619919" lon="5.5712099"/>
+            <node lat="45.619919" lon="5.5712099" id="7437758878"/>
+            <text lang="en" value="suspicious angle on way: 107.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6199271" lon="5.571245"/>
+            <node lat="45.6199271" lon="5.571245" id="7437758879"/>
+            <text lang="en" value="suspicious angle on way: 61.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.620032" lon="5.5710832"/>
+            <node lat="45.620032" lon="5.5710832" id="7437758880"/>
+            <text lang="en" value="suspicious angle on way: 15.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.2628805" lon="4.003722"/>
+            <node lat="49.2628805" lon="4.003722" id="7798656216"/>
+            <text lang="en" value="suspicious angle on way: 135.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.2303708" lon="1.3807041"/>
+            <node lat="49.2303708" lon="1.3807041" id="7862780244"/>
+            <text lang="en" value="suspicious angle on way: 147.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.2302954" lon="1.3808516"/>
+            <node lat="49.2302954" lon="1.3808516" id="7862780245"/>
+            <text lang="en" value="suspicious angle on way: 211.4"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.228966" lon="1.3812968"/>
+            <node lat="49.228966" lon="1.3812968" id="7862780256"/>
+            <text lang="en" value="suspicious angle on way: 146.4"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.2307526" lon="1.3800818"/>
+            <node lat="49.2307526" lon="1.3800818" id="7862780264"/>
+            <text lang="en" value="suspicious angle on way: 227.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.2307438" lon="1.3805056"/>
+            <node lat="49.2307438" lon="1.3805056" id="7862780268"/>
+            <text lang="en" value="suspicious angle on way: 210.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="49.0085063" lon="2.4396776"/>
+            <node lat="49.0085063" lon="2.4396776" id="8944107026"/>
+            <text lang="en" value="suspicious angle on way: 126.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.2206551" lon="4.0341352"/>
+            <node lat="44.2206551" lon="4.0341352" id="9020122950"/>
+            <text lang="en" value="suspicious angle on way: 18.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.7524242" lon="-3.3464413"/>
+            <node lat="47.7524242" lon="-3.3464413" id="9064522844"/>
+            <text lang="en" value="suspicious angle on way: 222.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.9320573" lon="2.4931691"/>
+            <node lat="48.9320573" lon="2.4931691" id="9461594000"/>
+            <text lang="en" value="suspicious angle on way: 91.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.002511" lon="3.1409911"/>
+            <node lat="47.002511" lon="3.1409911" id="9822308234"/>
+            <text lang="en" value="suspicious angle on way: 333.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6199633" lon="5.5721345"/>
+            <node lat="45.6199633" lon="5.5721345" id="10130637313"/>
+            <text lang="en" value="suspicious angle on way: 142.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6197662" lon="5.5718177"/>
+            <node lat="45.6197662" lon="5.5718177" id="10130637318"/>
+            <text lang="en" value="suspicious angle on way: 136.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6197062" lon="5.5718255"/>
+            <node lat="45.6197062" lon="5.5718255" id="10136173431"/>
+            <text lang="en" value="suspicious angle on way: 141.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6197463" lon="5.5718951"/>
+            <node lat="45.6197463" lon="5.5718951" id="10136173432"/>
+            <text lang="en" value="suspicious angle on way: 144.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3915736" lon="1.0037904"/>
+            <node lat="47.3915736" lon="1.0037904" id="10152786343"/>
+            <text lang="en" value="suspicious angle on way: 210.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3914524" lon="1.0038671"/>
+            <node lat="47.3914524" lon="1.0038671" id="10152786344"/>
+            <text lang="en" value="suspicious angle on way: 129.4"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3914442" lon="1.0039087"/>
+            <node lat="47.3914442" lon="1.0039087" id="10152786345"/>
+            <text lang="en" value="suspicious angle on way: 125.9"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3915259" lon="1.0039972"/>
+            <node lat="47.3915259" lon="1.0039972" id="10152786347"/>
+            <text lang="en" value="suspicious angle on way: 139.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3914973" lon="1.0039939"/>
+            <node lat="47.3914973" lon="1.0039939" id="10152786350"/>
+            <text lang="en" value="suspicious angle on way: 146.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3920686" lon="1.0035044"/>
+            <node lat="47.3920686" lon="1.0035044" id="10152786356"/>
+            <text lang="en" value="suspicious angle on way: 145.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3920741" lon="1.0035237"/>
+            <node lat="47.3920741" lon="1.0035237" id="10152786357"/>
+            <text lang="en" value="suspicious angle on way: 148.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3921188" lon="1.003547"/>
+            <node lat="47.3921188" lon="1.003547" id="10152786359"/>
+            <text lang="en" value="suspicious angle on way: 149.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3921773" lon="1.0029849"/>
+            <node lat="47.3921773" lon="1.0029849" id="10152786370"/>
+            <text lang="en" value="suspicious angle on way: 219.5"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3921461" lon="1.0029691"/>
+            <node lat="47.3921461" lon="1.0029691" id="10152786372"/>
+            <text lang="en" value="suspicious angle on way: 127.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3918284" lon="1.0037808"/>
+            <node lat="47.3918284" lon="1.0037808" id="10152789626"/>
+            <text lang="en" value="suspicious angle on way: 241.0"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3918284" lon="1.0037452"/>
+            <node lat="47.3918284" lon="1.0037452" id="10152789627"/>
+            <text lang="en" value="suspicious angle on way: 248.6"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="47.3916982" lon="1.0036815"/>
+            <node lat="47.3916982" lon="1.0036815" id="10152789630"/>
+            <text lang="en" value="suspicious angle on way: 140.8"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6197574" lon="5.5717959"/>
+            <node lat="45.6197574" lon="5.5717959" id="10158156287"/>
+            <text lang="en" value="suspicious angle on way: 142.1"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6200586" lon="5.5719474"/>
+            <node lat="45.6200586" lon="5.5719474" id="10158156288"/>
+            <text lang="en" value="suspicious angle on way: 248.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="45.6199748" lon="5.5721339"/>
+            <node lat="45.6199748" lon="5.5721339" id="10158156291"/>
+            <text lang="en" value="suspicious angle on way: 218.3"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="48.6890192" lon="2.3830436"/>
+            <node lat="48.6890192" lon="2.3830436" id="10606216262"/>
+            <text lang="en" value="suspicious angle on way: 147.7"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="43.6727082" lon="-1.253452"/>
+            <node lat="43.6727082" lon="-1.253452" id="10753827682"/>
+            <text lang="en" value="suspicious angle on way: 125.2"/>
+        </error>
+        <error class="12345" subclass="1">
+            <location lat="44.6346298" lon="5.906537"/>
+            <node lat="44.6346298" lon="5.906537" id="10911190170"/>
+            <text lang="en" value="suspicious angle on way: 74.5"/>
+        </error>
         <error class="12347" subclass="1">
             <location lat="50.6554127" lon="11.4407721"/>
             <node lat="50.6554127" lon="11.4407721" id="1650512863"/>
+            <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12347" subclass="1">
+            <location lat="48.8248519" lon="2.3810225"/>
+            <node lat="48.8248519" lon="2.3810225" id="261665917"/>
+            <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12347" subclass="1">
+            <location lat="48.8234513" lon="2.3804824"/>
+            <node lat="48.8234513" lon="2.3804824" id="261666111"/>
+            <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12347" subclass="1">
+            <location lat="48.8240589" lon="2.383082"/>
+            <node lat="48.8240589" lon="2.383082" id="261666506"/>
+            <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12347" subclass="1">
+            <location lat="48.8242683" lon="2.3808777"/>
+            <node lat="48.8242683" lon="2.3808777" id="261666663"/>
+            <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12347" subclass="1">
+            <location lat="48.8229496" lon="2.3804316"/>
+            <node lat="48.8229496" lon="2.3804316" id="2621272613"/>
+            <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12347" subclass="1">
+            <location lat="49.6422776" lon="-1.6085368"/>
+            <node lat="49.6422776" lon="-1.6085368" id="7359856546"/>
             <text lang="en" value="4 vertices and no crossing"/>
         </error>
     </analyser>
