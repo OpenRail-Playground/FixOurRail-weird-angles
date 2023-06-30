@@ -28,6 +28,7 @@ const descriptionForFinding = f => {
 	if (f.type === 'four-vertices-no-crossing') return 'four vertices, no crossing'
 	if (f.type === 'suspicious-angle') return `suspicious angle: ${f.angle}`
 	if (f.type === 'more-than-four-edges') return `more than four edges: ${f.edgeCount}`
+	if (f.type === 'disconnected-track') return `disconnected-tracks`
 	return 'other (wtf)'
 }
 
@@ -50,9 +51,11 @@ map.on('load', () => {
 				...findingsDach.fourVerticesNoCrossing,
 				...findingsDach.suspiciousAngle,
 				...findingsDach.moreThanFourEdges,
+				...findingsDach.disconnectedTracks,
 				...findingsFr.fourVerticesNoCrossing,
 				...findingsFr.suspiciousAngle,
 				...findingsFr.moreThanFourEdges,
+				...findingsFr.disconnectedTracks,
 			].map(finding => {
 				return {
 					type: 'Feature',
