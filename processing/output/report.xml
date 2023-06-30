@@ -10,6 +10,9 @@
         <class id="12347" level="2" item="9011">
             <classtext lang="en" title="4 edges no crossing"/>
         </class>
+        <class id="12348" level="2" item="9011">
+            <classtext lang="en" title="disconnected tracks"/>
+        </class>
         <error class="12346" subclass="1">
             <location lat="50.9720512" lon="8.0539853"/>
             <node lat="50.9720512" lon="8.0539853" id="587647160"/>
@@ -1274,6 +1277,91 @@
             <location lat="49.6422776" lon="-1.6085368"/>
             <node lat="49.6422776" lon="-1.6085368" id="7359856546"/>
             <text lang="en" value="4 vertices and no crossing"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1939376" lon="16.3287088"/>
+            <node lat="48.1939376" lon="16.3287088" id="1038290455"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.193544" lon="16.3269041"/>
+            <node lat="48.193544" lon="16.3269041" id="1041298070"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.2767597" lon="16.4753208"/>
+            <node lat="48.2767597" lon="16.4753208" id="1501492694"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.2798691" lon="16.3928944"/>
+            <node lat="48.2798691" lon="16.3928944" id="1883201451"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1776555" lon="16.4075091"/>
+            <node lat="48.1776555" lon="16.4075091" id="1918180335"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1508491" lon="16.4274291"/>
+            <node lat="48.1508491" lon="16.4274291" id="1167143612"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1937666" lon="16.3284416"/>
+            <node lat="48.1937666" lon="16.3284416" id="1038290509"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1939797" lon="16.3288683"/>
+            <node lat="48.1939797" lon="16.3288683" id="1038290413"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.19396" lon="16.3286639"/>
+            <node lat="48.19396" lon="16.3286639" id="608627688"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1932968" lon="16.3261919"/>
+            <node lat="48.1932968" lon="16.3261919" id="3923377259"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1932488" lon="16.3262306"/>
+            <node lat="48.1932488" lon="16.3262306" id="3923377258"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.193041" lon="16.3258491"/>
+            <node lat="48.193041" lon="16.3258491" id="3923375956"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.19312" lon="16.3259115"/>
+            <node lat="48.19312" lon="16.3259115" id="3923377257"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.1777044" lon="16.4075176"/>
+            <node lat="48.1777044" lon="16.4075176" id="4397537699"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.2201622" lon="16.5037191"/>
+            <node lat="48.2201622" lon="16.5037191" id="4623600136"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.2200233" lon="16.5044032"/>
+            <node lat="48.2200233" lon="16.5044032" id="4623600135"/>
+            <text lang="en" value="disconnected track"/>
+        </error>
+        <error class="12348" subclass="1">
+            <location lat="48.2771494" lon="16.4753249"/>
+            <node lat="48.2771494" lon="16.4753249" id="5412973102"/>
+            <text lang="en" value="disconnected track"/>
         </error>
     </analyser>
 </analysers>

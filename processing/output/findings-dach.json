@@ -1103,5 +1103,109 @@
             "nodeId": "1650512863",
             "edgeCount": 5
         }
+    ],
+    "disconnectedTracks": [
+        {
+            "type": "disconnected-track",
+            "lat": 48.1939376,
+            "lon": 16.3287088,
+            "nodeId": 1038290455
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.193544,
+            "lon": 16.3269041,
+            "nodeId": 1041298070
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.2767597,
+            "lon": 16.4753208,
+            "nodeId": 1501492694
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.2798691,
+            "lon": 16.3928944,
+            "nodeId": 1883201451
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1776555,
+            "lon": 16.4075091,
+            "nodeId": 1918180335
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1508491,
+            "lon": 16.4274291,
+            "nodeId": 1167143612
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1937666,
+            "lon": 16.3284416,
+            "nodeId": 1038290509
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1939797,
+            "lon": 16.3288683,
+            "nodeId": 1038290413
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.19396,
+            "lon": 16.3286639,
+            "nodeId": 608627688
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1932968,
+            "lon": 16.3261919,
+            "nodeId": 3923377259
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1932488,
+            "lon": 16.3262306,
+            "nodeId": 3923377258
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.193041,
+            "lon": 16.3258491,
+            "nodeId": 3923375956
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.19312,
+            "lon": 16.3259115,
+            "nodeId": 3923377257
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.1777044,
+            "lon": 16.4075176,
+            "nodeId": 4397537699
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.2201622,
+            "lon": 16.5037191,
+            "nodeId": 4623600136
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.2200233,
+            "lon": 16.5044032,
+            "nodeId": 4623600135
+        },
+        {
+            "type": "disconnected-track",
+            "lat": 48.2771494,
+            "lon": 16.4753249,
+            "nodeId": 5412973102
+        }
     ]
 }
