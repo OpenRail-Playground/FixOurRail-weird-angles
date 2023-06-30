@@ -28,7 +28,7 @@ const descriptionForFinding = f => {
 	if (f.type === 'four-vertices-no-crossing') return 'four vertices, no crossing'
 	if (f.type === 'suspicious-angle') return `suspicious angle: ${f.angle}`
 	if (f.type === 'more-than-four-edges') return `more than four edges: ${f.edgeCount}`
-	if (f.type === 'disconnected-track') return `disconnected-tracks`
+	if (f.type === 'disconnected-track') return 'disconnected tracks'
 	return 'other (wtf)'
 }
 
@@ -36,6 +36,7 @@ const iconForFinding = f => {
 	if (f.type === 'four-vertices-no-crossing') return 'rocket'
 	if (f.type === 'suspicious-angle') return 'picnic-site'
 	if (f.type === 'more-than-four-edges') return 'windmill'
+	if (f.type === 'disconnected-track') return 'bridge'
 	return 'rocket'
 }
 
