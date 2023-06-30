@@ -27,7 +27,7 @@
 		"fix": "npm run lint -- --fix",
 		"prepublishOnly": "npm test",
 		"test": "npm run lint && npm run check-deps && ava",
-		"preprocess": "sh import.sh dach-latest.osm.pbf | sed  \"/tag/d\" > test.osm",
+		"preprocess": "sh import.sh dach-latest.osm.pbf | sed -e '/tag/{/railway/!d;}' > test.osm",
 		"findings": "cat test.osm | node src/index.js > angle_request.xml",
 		"createHtml": "cat before.txt out.txt after.txt > findings.html"
 
